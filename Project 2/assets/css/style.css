@@ -66,7 +66,7 @@ span,
 table,
 tbody,
 button,
-ion-icon { display: block; }
+i { display: block; }
 
 button,
 input {
@@ -243,7 +243,7 @@ body {
   transition: var(--transition-1);
 }
 
-.card-action-btn ion-icon { --ionicon-stroke-width: 30px; }
+.card-action-btn i { --ionicon-stroke-width: 30px; }
 
 .card-action-btn:is(:hover, :focus) {
   background: var(--bittersweet);
@@ -360,7 +360,7 @@ body {
 
 .nav-open-btn:is(:hover, :focus) { background: var(--salmon); }
 
-.nav-open-btn ion-icon { --ionicon-stroke-width: 40px; }
+.nav-open-btn i { --ionicon-stroke-width: 40px; }
 
 .navbar {
   background: var(--white);
@@ -395,7 +395,7 @@ body {
   transition: var(--transition-1);
 }
 
-.nav-close-btn ion-icon { --ionicon-stroke-width: 55px; }
+.nav-close-btn i { --ionicon-stroke-width: 55px; }
 
 .nav-close-btn:is(:hover, :focus) { color: var(--bittersweet); }
 
@@ -438,7 +438,7 @@ body {
 
 .nav-action-btn:is(:hover, :focus) { color: var(--bittersweet); }
 
-.nav-action-btn ion-icon {
+.nav-action-btn i {
   font-size: 22px;
   --ionicon-stroke-width: 25px;
 }
@@ -723,7 +723,7 @@ body {
   transition: var(--transition-1);
 }
 
-.insta-post-link ion-icon {
+.insta-post-link i {
   color: var(--white);
   font-size: 40px;
 }
@@ -802,7 +802,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
 .footer-list:not(:last-child) { margin-bottom: 30px; }
 
-.footer-list:first-child ion-icon {
+.footer-list:first-child i {
   color: var(--bittersweet);
   font-size: 22px;
 }
@@ -1149,7 +1149,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
   .nav-action-btn { position: relative; }
 
-  .nav-action-badge ion-icon { --ionicon-stroke-width: 30px; }
+  .nav-action-badge i { --ionicon-stroke-width: 30px; }
 
   .nav-action-badge {
     position: absolute;
